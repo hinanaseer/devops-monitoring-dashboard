@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-      - "9090:5000"
+      - "9091:5000"
   grafana:
     image: grafana/grafana:latest
     ports:
